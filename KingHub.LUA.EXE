@@ -1,0 +1,23 @@
+local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))()
+local UIS = game:GetService("UserInputService")
+
+if game:GetService("Players").LocalPlayer.PlayerGui.MainUI.ItemShop.Visible == true then
+    -- Create custom shop item
+    CustomShop.CreateItem(exampleTool, {
+        Title = "Doors 👁 GUI",
+        Desc = "Activates the Doors 👁 Exploiting GUI!",
+        Image = "https://i.ibb.co/XphLCMs/New-Project.png",
+        Price = "FREE",
+        Stack = 1,
+    })
+    ----------------------------------------- parenting
+end
+
+print("THIS SCRIPT IS FOR EDUCATIONAL PURPOSES ONLY!")
+
+    wait ("5")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/KingHubScriptDoors/main/KingHub.LUA",true))();
+
+print("Script Executed!")
