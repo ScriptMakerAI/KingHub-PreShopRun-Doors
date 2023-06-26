@@ -18,6 +18,6 @@ print("THIS SCRIPT IS FOR EDUCATIONAL PURPOSES ONLY!")
 
     wait ("5")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/KingHubScriptDoors/main/KingHub.LUA",true))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
 
 print("Script Executed!")
